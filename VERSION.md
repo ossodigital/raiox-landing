@@ -4,8 +4,8 @@
 
 **Versão:** RAIOX v1.0.0
 
-**Status:** Release Candidate
+**Status:** Ready to Sell
 
-**Data:** 1º de julho de 2026
+**Data:** 01/07/2026
 
-Esta versão está pronta para homologação final. A promoção para versão comercial depende da resolução das pendências registradas em [RELEASE_NOTES.md](RELEASE_NOTES.md).
+Versão comercial manual publicada com landing, relatório demonstrativo, atendimento humano e documentação de venda e entrega.

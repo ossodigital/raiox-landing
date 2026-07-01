@@ -1,21 +1,26 @@
 # Roadmap do RAIOX
 
-## V1 — Landing e validação comercial
+## V1 — Ativo comercial manual
 
 - [x] Landing publicada.
-- [x] WhatsApp humano configurado.
-- [x] Oferta manual.
+- [x] Domínio oficial.
+- [x] WhatsApp humano.
+- [x] Oferta de R$ 197.
+- [x] Relatório demonstrativo.
+- [x] Processo de venda e entrega documentado.
 
-## V2 — Captura e acompanhamento
+## V2 — Automação comercial e de entrega
 
 - [ ] Formulário.
 - [ ] Supabase.
-- [ ] Captura de leads.
-- [ ] Dashboard simples.
-
-## V3 — Inteligência e escala
-
-- [ ] IA de auditoria.
+- [ ] Dashboard.
 - [ ] Score automático.
-- [ ] Relatório PDF.
+- [ ] PDF dinâmico.
+- [ ] IA de auditoria.
+- [ ] Pagamentos.
+
+## V3 — Escala
+
 - [ ] Operação multinicho.
+- [ ] Automação de implantação.
+- [ ] Benchmark por segmento.

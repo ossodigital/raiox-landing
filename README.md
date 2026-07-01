@@ -1,79 +1,89 @@
 # RAIOX Landing
 
-Landing page oficial do RAIOX, produto da OSSO DIGITAL para diagnosticar gargalos de vendas e atendimento e orientar ações comerciais com mais clareza.
+Landing oficial do RAIOX, produto da OSSO DIGITAL para diagnosticar gargalos de vendas e atendimento e organizar prioridades comerciais.
 
 Repositório oficial: [ossodigital/raiox-landing](https://github.com/ossodigital/raiox-landing)
 
-## Status da release
+## Status
 
-**RAIOX LANDING V1 RELEASE CANDIDATE**
+**RAIOX V1 — Ativo comercial publicado**
 
-Versão candidata: `RAIOX v1.0.0`. A base técnica está pronta para homologação final antes da primeira versão comercial.
+Versão: `RAIOX v1.0.0` — **Ready to Sell**.
+
+Domínio oficial: [https://raiox.ossodigital.com.br/](https://raiox.ossodigital.com.br/)
 
 ## Objetivo comercial
 
-Apresentar a oferta RAIOX, explicar o valor do diagnóstico e converter visitantes em conversas comerciais qualificadas. Na V1, a conversão acontece pelo WhatsApp e todo o atendimento é humano.
+Apresentar o Diagnóstico RAIOX, converter visitantes em conversas qualificadas e entregar uma auditoria manual com score, gargalos, prioridades e plano de ação. Na V1, venda, atendimento e entrega são humanos.
 
-## Status atual
+## Páginas disponíveis
 
-- Landing publicada na Vercel.
-- Deploy automático conectado ao repositório oficial no GitHub.
-- `index.html` e `report.html` servidos a partir da raiz.
-- Dez CTAs direcionados ao WhatsApp provisório `5511989886009`.
-- Botão flutuante do WhatsApp ativo.
-- Oferta e atendimento realizados manualmente.
-- Sem integração com o OSSO ENGINE nesta versão.
-- OSSO ENGINE permanece focado no nicho de tattoo por enquanto.
-- Página 404 e páginas legais adicionadas.
-- SEO técnico, acessibilidade e responsividade revisados para a release candidate.
+- [Landing comercial](https://raiox.ossodigital.com.br/)
+- [Relatório demonstrativo](https://raiox.ossodigital.com.br/report.html)
+- [Política de Privacidade](https://raiox.ossodigital.com.br/legal/privacy.html)
+- [Termos de Uso](https://raiox.ossodigital.com.br/legal/terms.html)
+- [Página de obrigado](https://raiox.ossodigital.com.br/pages/obrigado.html)
+- [Página 404](https://raiox.ossodigital.com.br/404.html)
+
+## Status operacional
+
+- Publicação e deploy automático pela Vercel.
+- Domínio oficial configurado.
+- WhatsApp humano `5511989886009` configurado nos CTAs.
+- Relatório demonstrativo premium mantido em `report.html`.
+- Oferta manual sugerida em R$ 197.
+- Processo comercial e operacional documentado.
+- Sem Supabase e sem OSSO ENGINE nesta versão.
 
 ## Stack
 
 - HTML5
 - CSS3
 - JavaScript sem framework
-- Git e GitHub
-- Vercel para hospedagem e deploy automático
+- GitHub
+- Vercel
 
-## Estrutura de arquivos
+## Estrutura principal
 
 ```text
 raiox-landing/
-├── index.html          # Landing principal
-├── report.html         # Modelo de relatório RAIOX
-├── 404.html            # Página de erro personalizada
-├── terms.html          # Termos de Uso
-├── privacy.html        # Política de Privacidade
-├── assets/             # Favicons e imagens
-├── scripts/            # Comportamento da landing e do relatório
-├── styles/             # Estilos da landing e do relatório
-├── docs/               # Documentação de produto e marketing
-├── package.json        # Metadados do projeto estático
-├── vercel.json         # Configuração de URLs da Vercel
-├── CHECKPOINTS.md      # Marcos oficiais validados
-├── ROADMAP.md          # Evolução planejada do produto
-├── CHANGELOG.md        # Histórico de mudanças
-├── RELEASE_NOTES.md    # Notas da release candidate
-└── VERSION.md          # Versão e status oficiais
+├── index.html
+├── report.html
+├── 404.html
+├── legal/
+│   ├── privacy.html
+│   └── terms.html
+├── pages/
+│   └── obrigado.html
+├── assets/
+├── styles/
+├── scripts/
+├── docs/
+│   ├── comercial/
+│   └── operacional/
+├── sitemap.xml
+├── robots.txt
+└── vercel.json
 ```
 
-## Fluxo V1
+## Fluxo comercial V1
 
-1. O visitante acessa a landing RAIOX.
-2. Conhece o diagnóstico, seus benefícios e a oferta.
-3. Clica em um dos CTAs da página.
-4. É direcionado ao WhatsApp humano com uma mensagem pronta.
-5. A equipe realiza a qualificação e apresenta a oferta manualmente.
+1. O visitante acessa a landing.
+2. Conhece a oferta e o relatório demonstrativo.
+3. Inicia uma conversa pelo WhatsApp.
+4. A equipe qualifica e apresenta o Diagnóstico RAIOX de R$ 197.
+5. Após pagamento e coleta, a auditoria é executada manualmente.
+6. O cliente recebe PDF, prioridades e proposta opcional de implantação.
+7. Quando previsto na proposta, o valor do diagnóstico é abatido da implantação.
 
-O fluxo V1 não utiliza OSSO ENGINE, automação multinicho, formulário ou banco de dados.
+## Próximos passos V2
 
-## Próximos passos
+- Formulário.
+- Supabase.
+- Dashboard.
+- Score automático.
+- PDF dinâmico.
+- IA de auditoria.
+- Pagamentos.
 
-- Adicionar formulário e captura estruturada de leads.
-- Persistir os dados no Supabase.
-- Criar um dashboard simples para acompanhamento.
-- Evoluir para auditoria e score automáticos com IA.
-- Gerar relatórios em PDF.
-- Preparar o RAIOX para operação multinicho.
-
-Consulte [ROADMAP.md](ROADMAP.md) para o detalhamento por versão.
+Consulte [ROADMAP.md](ROADMAP.md) e [RELEASE_NOTES.md](RELEASE_NOTES.md).
