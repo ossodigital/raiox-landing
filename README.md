@@ -22,6 +22,8 @@ O RAIOX V1 é um único ativo comercial composto pela landing principal, pelo re
 
 O arquivo `report.html` não é um produto separado: ele integra o mesmo RAIOX V1 como demonstração pública da qualidade e da estrutura da entrega final.
 
+O relatório demonstrativo é acessível diretamente pela landing, tanto nos CTAs da hero quanto em uma seção dedicada da jornada comercial.
+
 ## Páginas disponíveis
 
 - [Landing comercial](https://raiox.ossodigital.com.br/)

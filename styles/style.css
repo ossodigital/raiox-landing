@@ -21,3 +21,6 @@
 
 .footer-legal{display:flex;gap:18px;color:#718279;font-size:.62rem}.footer-legal a:hover{color:var(--green)}
 @media(max-width:620px){.footer-legal{margin:10px 0;flex-wrap:wrap}}
+.demo-report{padding-block:55px;border-block:1px solid var(--line);background:linear-gradient(135deg,rgba(66,245,155,.045),transparent 65%)}.demo-report-card{display:flex;align-items:center;justify-content:space-between;gap:48px;padding:38px 42px;border-radius:var(--radius)}.demo-report-copy{max-width:760px}.demo-report-card .section-number{margin-bottom:14px}.demo-report-card h2{margin-bottom:14px;font-size:clamp(1.8rem,3.2vw,2.8rem)}.demo-report-card p{margin-bottom:0}.demo-report-card>.button{flex:0 0 auto}
+@media(max-width:860px){.demo-report-card{display:block}.demo-report-card>.button{margin-top:26px}}
+@media(max-width:620px){.demo-report{padding-block:45px}.demo-report-card{padding:30px 22px}.demo-report-card>.button{width:100%}}

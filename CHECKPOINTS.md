@@ -87,3 +87,12 @@
 - Status operacionais do cliente definidos.
 - Funil comercial e checklist de fechamento consolidados.
 - Operação V1 pronta para controle manual reproduzível.
+
+## CHECKPOINT V1_REPORT_DEMO_LINKED_TO_LANDING_OK
+
+**Status:** concluído em 2026-07-01.
+
+- Relatório demo conectado aos CTAs principais da hero.
+- Seção comercial dedicada apresenta a entrega e direciona para `report.html`.
+- Página de obrigado também oferece acesso relativo ao relatório demonstrativo.
+- Jornada entre landing, demo e solicitação pelo WhatsApp validada.

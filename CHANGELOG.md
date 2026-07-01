@@ -16,6 +16,7 @@ Todas as mudanças relevantes do RAIOX Landing são registradas neste arquivo.
 - Oferta do Diagnóstico RAIOX definida com preço sugerido de R$ 197.
 - Documentos comerciais e operacionais adicionados.
 - Processo manual mantido sem Supabase e sem OSSO ENGINE.
+- Relatório demo integrado à jornada comercial da landing com CTA na hero, seção dedicada e acesso pela página de obrigado.
 
 ### Histórico consolidado
 
