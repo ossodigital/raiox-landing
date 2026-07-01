@@ -16,6 +16,12 @@ Domínio oficial: [https://raiox.ossodigital.com.br/](https://raiox.ossodigital.
 
 Apresentar o Diagnóstico RAIOX, converter visitantes em conversas qualificadas e entregar uma auditoria manual com score, gargalos, prioridades e plano de ação. Na V1, venda, atendimento e entrega são humanos.
 
+## Ativo comercial único
+
+O RAIOX V1 é um único ativo comercial composto pela landing principal, pelo relatório demonstrativo premium, pelas páginas legais, pela página de obrigado, pela página 404 e pela documentação comercial e operacional.
+
+O arquivo `report.html` não é um produto separado: ele integra o mesmo RAIOX V1 como demonstração pública da qualidade e da estrutura da entrega final.
+
 ## Páginas disponíveis
 
 - [Landing comercial](https://raiox.ossodigital.com.br/)

@@ -4,6 +4,8 @@
 
 **Data:** 01/07/2026
 
+**Status final:** RAIOX V1 Ready to Sell com domínio próprio `https://raiox.ossodigital.com.br`.
+
 ## Entregas
 
 - Landing comercial responsiva.

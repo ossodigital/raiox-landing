@@ -62,3 +62,28 @@
 - Sitemap final sem a página 404.
 - Robots, links internos e CTAs revisados.
 - Pacote RAIOX v1.0.0 encerrado como **Final V1 — Ready to Sell**.
+
+## CHECKPOINT V1_DOMAIN_FINAL_OK
+
+**Status:** concluído em 2026-07-01.
+
+- Domínio próprio confirmado como endereço oficial do ativo.
+- Landing e páginas institucionais publicadas em `raiox.ossodigital.com.br`.
+- Canonicals e documentação usam o domínio oficial.
+
+## CHECKPOINT V1_REPORT_ON_DOMAIN_OK
+
+**Status:** concluído em 2026-07-01.
+
+- Relatório demo disponível em `https://raiox.ossodigital.com.br/report.html`.
+- `report.html` confirmado como parte do mesmo ativo comercial RAIOX V1.
+- Navegação entre landing, relatório, páginas legais e WhatsApp revisada.
+
+## CHECKPOINT V1_OPERATION_CONTROL_OK
+
+**Status:** concluído em 2026-07-01.
+
+- Fluxos de venda, atendimento, pagamento, coleta, auditoria e entrega documentados.
+- Status operacionais do cliente definidos.
+- Funil comercial e checklist de fechamento consolidados.
+- Operação V1 pronta para controle manual reproduzível.
