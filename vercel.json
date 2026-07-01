@@ -1,18 +1,4 @@
 {
-  "version": 2,
-  "public": true,
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/src/index.html"
-    },
-    {
-      "src": "/report",
-      "dest": "/src/report.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/src/$1"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
