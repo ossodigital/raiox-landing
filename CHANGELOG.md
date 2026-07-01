@@ -2,7 +2,16 @@
 
 Todas as mudanças relevantes do projeto RAIOX Landing são registradas neste arquivo.
 
-## [1.0.0] - 2026-07-01
+## [1.0.0 RC] - 2026-07-01
+
+### Release Candidate
+
+- Revisão completa de SEO, metadados, Open Graph, acessibilidade e responsividade do relatório.
+- Página 404 alinhada à identidade RAIOX.
+- Termos de Uso e Política de Privacidade provisórios para a operação V1.
+- Sitemap e robots.txt atualizados.
+- Documentação de release e versão oficial adicionada.
+- Links legais incorporados à landing e ao relatório.
 
 ### Corrigido
 

@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /styles/
+Allow: /scripts/
 
 Sitemap: https://raiox.ossodigital.com.br/sitemap.xml

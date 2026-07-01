@@ -4,6 +4,12 @@ Landing page oficial do RAIOX, produto da OSSO DIGITAL para diagnosticar gargalo
 
 Repositório oficial: [ossodigital/raiox-landing](https://github.com/ossodigital/raiox-landing)
 
+## Status da release
+
+**RAIOX LANDING V1 RELEASE CANDIDATE**
+
+Versão candidata: `RAIOX v1.0.0`. A base técnica está pronta para homologação final antes da primeira versão comercial.
+
 ## Objetivo comercial
 
 Apresentar a oferta RAIOX, explicar o valor do diagnóstico e converter visitantes em conversas comerciais qualificadas. Na V1, a conversão acontece pelo WhatsApp e todo o atendimento é humano.
@@ -18,6 +24,8 @@ Apresentar a oferta RAIOX, explicar o valor do diagnóstico e converter visitant
 - Oferta e atendimento realizados manualmente.
 - Sem integração com o OSSO ENGINE nesta versão.
 - OSSO ENGINE permanece focado no nicho de tattoo por enquanto.
+- Página 404 e páginas legais adicionadas.
+- SEO técnico, acessibilidade e responsividade revisados para a release candidate.
 
 ## Stack
 
@@ -33,6 +41,9 @@ Apresentar a oferta RAIOX, explicar o valor do diagnóstico e converter visitant
 raiox-landing/
 ├── index.html          # Landing principal
 ├── report.html         # Modelo de relatório RAIOX
+├── 404.html            # Página de erro personalizada
+├── terms.html          # Termos de Uso
+├── privacy.html        # Política de Privacidade
 ├── assets/             # Favicons e imagens
 ├── scripts/            # Comportamento da landing e do relatório
 ├── styles/             # Estilos da landing e do relatório
@@ -41,7 +52,9 @@ raiox-landing/
 ├── vercel.json         # Configuração de URLs da Vercel
 ├── CHECKPOINTS.md      # Marcos oficiais validados
 ├── ROADMAP.md          # Evolução planejada do produto
-└── CHANGELOG.md        # Histórico de mudanças
+├── CHANGELOG.md        # Histórico de mudanças
+├── RELEASE_NOTES.md    # Notas da release candidate
+└── VERSION.md          # Versão e status oficiais
 ```
 
 ## Fluxo V1
