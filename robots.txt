@@ -1,13 +1,8 @@
 User-agent: *
 Allow: /
-Allow: /report.html
-Allow: /assets/
-Allow: /styles/
-Allow: /scripts/script.js
-Allow: /scripts/report.js
 Disallow: /docs/
 Disallow: /scripts/
-Disallow: /checkpoints/
 Disallow: /database/
+Disallow: /checkpoints/
 
 Sitemap: https://raiox.ossodigital.com.br/sitemap.xml

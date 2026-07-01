@@ -6,6 +6,7 @@ Todas as mudanças relevantes do RAIOX Landing são registradas neste arquivo.
 
 ### Ready to Sell
 
+- Release final RAIOX V1 Ready to Sell concluído e validado em produção.
 - Domínio oficial configurado na Vercel.
 - Landing comercial e relatório demonstrativo premium mantidos.
 - Estrutura institucional criada em `legal/` e `pages/`.

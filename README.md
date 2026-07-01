@@ -6,7 +6,7 @@ Repositório oficial: [ossodigital/raiox-landing](https://github.com/ossodigital
 
 ## Status
 
-**RAIOX V1 — Ativo comercial publicado**
+**RAIOX V1 — READY TO SELL**
 
 Versão: `RAIOX v1.0.0` — **Ready to Sell**.
 

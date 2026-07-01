@@ -52,3 +52,13 @@
 - Oferta principal definida com preço sugerido de R$ 197.
 - Roteiro comercial e processo de entrega documentados.
 - V1 pronta para venda e entrega manual.
+
+## CHECKPOINT FINAL_RELEASE_READY_TO_SELL_OK
+
+**Status:** concluído em 2026-07-01.
+
+- Commit base `45268c6` confirmado localmente e na branch `main` remota.
+- Seis páginas públicas validadas em produção com HTTP 200.
+- Sitemap final sem a página 404.
+- Robots, links internos e CTAs revisados.
+- Pacote RAIOX v1.0.0 encerrado como **Final V1 — Ready to Sell**.
