@@ -14,8 +14,8 @@
       id: 'RX-2026-001'
     },
     contact: {
-      whatsappNumber: '',
-      message: 'Olá, quero continuar com a implementação do meu RAIOX da Estrutura Digital.'
+      whatsappNumber: '5511989886009',
+      message: 'Olá, vim pela landing RAIOX e quero entender meus gargalos de vendas e atendimento.'
     },
     score: {
       value: 58,

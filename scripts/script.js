@@ -4,8 +4,8 @@
   const CONFIG = {
     // Informe somente números, com DDI e DDD, para direcionar a conversa.
     // Exemplo: '5511999999999'. Vazio abre o seletor de contatos do WhatsApp.
-    whatsappNumber: '',
-    brand: 'RAIOX'
+    whatsappNumber: '5511989886009',
+    whatsappMessage: 'Olá, vim pela landing RAIOX e quero entender meus gargalos de vendas e atendimento.'
   };
 
   const $ = (selector, context = document) => context.querySelector(selector);
@@ -80,10 +80,8 @@
 
   function setupWhatsApp() {
     $$('.whatsapp-link').forEach((link) => {
-      const intent = link.dataset.plan || 'conhecer o RAIOX';
-      const message = `Olá! Vim pelo site do ${CONFIG.brand} e quero ${intent}.`;
       const recipient = CONFIG.whatsappNumber.trim();
-      link.href = `https://wa.me/${recipient}?text=${encodeURIComponent(message)}`;
+      link.href = `https://wa.me/${recipient}?text=${encodeURIComponent(CONFIG.whatsappMessage)}`;
     });
   }
 
