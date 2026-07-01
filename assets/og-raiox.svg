@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><radialGradient id="g" cx="78%" cy="30%"><stop stop-color="#1b9e61" stop-opacity=".55"/><stop offset="1" stop-color="#06100c" stop-opacity="0"/></radialGradient><linearGradient id="l"><stop stop-color="#42f59b"/><stop offset="1" stop-color="#a4ffd1"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="#06100c"/><rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="none" stroke="#42f59b" opacity=".12"><circle cx="930" cy="300" r="230"/><circle cx="930" cy="300" r="170"/><circle cx="930" cy="300" r="110"/><path d="M0 520 1200 20M130 630 1200 180"/></g>
+  <g transform="translate(90 88)"><path d="M42 0 78 21v42L42 84 6 63V21L42 0Z" fill="none" stroke="#42f59b" stroke-width="5"/><path d="m27 24 30 36M57 24 27 60" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/></g>
+  <text x="190" y="150" font-family="Arial,sans-serif" font-weight="800" font-size="64" fill="#f4fff9">RAIO<tspan fill="#42f59b">X</tspan></text>
+  <text x="90" y="285" font-family="Arial,sans-serif" font-weight="700" font-size="58" fill="#f4fff9">Encontre os vazamentos</text><text x="90" y="355" font-family="Arial,sans-serif" font-weight="700" font-size="58" fill="#f4fff9">da sua operação comercial.</text>
+  <text x="90" y="430" font-family="Arial,sans-serif" font-size="28" fill="#a7b8af">Auditoria inteligente de vendas com IA.</text>
+  <rect x="90" y="490" width="355" height="62" rx="31" fill="url(#l)"/><text x="130" y="531" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#06100c">DADOS. CLAREZA. AÇÃO.</text>
+</svg>

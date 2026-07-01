@@ -1,0 +1,9 @@
+{
+  "name": "raiox-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page do RAIOX — Auditoria Inteligente de Vendas com IA.",
+  "scripts": {
+    "check": "node --check scripts/script.js"
+  }
+}
