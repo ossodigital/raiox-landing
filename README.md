@@ -2,6 +2,69 @@
 
 Landing oficial do RAIOX, produto da OSSO DIGITAL para diagnosticar gargalos de vendas e atendimento e organizar prioridades comerciais.
 
+## Foundation Closure
+
+As Missões 001–003 do RAIOX Platform / OSSO Audit / OSSO DIGITAL Architecture foram revisadas e encerradas documentalmente na versão `0.3.1-foundation-closure`.
+
+- [Relatório de fechamento](docs/platform/FOUNDATION_CLOSURE_REPORT.md)
+- [CHECKPOINT_004_FOUNDATION_CLOSURE](checkpoints/CHECKPOINT_004_FOUNDATION_CLOSURE.md)
+- Status: **aprovado para commit documental**.
+- Runtime/deploy: **não alterado e não autorizado**.
+- Próxima missão recomendada: **MISSÃO 005 — CREATE RAIOX PLATFORM REPOSITORY**.
+
+Nota de sequência: referências históricas ao “Platform Skeleton” como Missão 003 foram supersedidas. A Missão 003 executada foi a arquitetura corporativa; o skeleton passa a ser recomendado como Missão 005.
+
+## Arquitetura corporativa OSSO DIGITAL
+
+Este repositório passa a registrar a baseline documental da arquitetura corporativa oficial da OSSO DIGITAL. Ela é referência para RAIOX, RAIOX Platform, OSSO Audit, OSSO Engine, OSSO Post System, OSSO DIGITAL Landing, Tattoo Até os Ossos, Sétima Arte e projetos futuros.
+
+- [Arquitetura corporativa](docs/osso-digital-architecture/OSSO_DIGITAL_ARCHITECTURE.md)
+- [Mapa de produtos](docs/osso-digital-architecture/PRODUCT_MAP.md)
+- [Padrões de engenharia](docs/osso-digital-architecture/ENGINEERING_STANDARDS.md)
+- [Padrões SaaS](docs/osso-digital-architecture/SAAS_STANDARDS.md)
+- [Padrões de documentação](docs/osso-digital-architecture/DOCUMENTATION_STANDARDS.md)
+- [Padrões para agentes IA](docs/osso-digital-architecture/AI_AGENT_STANDARDS.md)
+- [Estratégia de repositórios](docs/osso-digital-architecture/REPOSITORY_STRATEGY.md)
+- [Roadmap do ecossistema](docs/osso-digital-architecture/ECOSYSTEM_ROADMAP.md)
+- [Checkpoint da Missão 003](checkpoints/CHECKPOINT_OSSO_DIGITAL_ARCHITECTURE.md)
+
+Essa baseline é exclusivamente documental. Não altera ownership, runtime ou deploy dos produtos automaticamente.
+
+## Missão 001 — Foundation
+
+O repositório também abriga, **somente como documentação**, o MASTER PLAN do futuro **RAIOX PLATFORM (OSSO AUDIT)**. A plataforma será criada em repositório próprio e tratará esta Landing V1 como dependência externa congelada.
+
+- Baseline congelada do V1: `b7984a2`.
+- Status da Landing: **RAIOX V1 — READY TO SELL**.
+- Status da plataforma: **Baseline arquitetural aprovada — documentação somente**.
+- Versão documental: `0.2.0-architecture`.
+- Implementação de negócio da plataforma: **não iniciada**.
+- Documento principal: [`docs/platform/MASTER_PLAN_RAIOX_PLATFORM.md`](docs/platform/MASTER_PLAN_RAIOX_PLATFORM.md).
+- Decisões consolidadas: [`docs/platform/ARCHITECTURE_DECISIONS.md`](docs/platform/ARCHITECTURE_DECISIONS.md).
+- Índice de ADRs: [`docs/platform/ADR_INDEX.md`](docs/platform/ADR_INDEX.md).
+- Relatório para aprovação: [`docs/platform/EXECUTIVE_REPORT_FOUNDATION.md`](docs/platform/EXECUTIVE_REPORT_FOUNDATION.md).
+- Checkpoint: [`checkpoints/CHECKPOINT_001_FOUNDATION.md`](checkpoints/CHECKPOINT_001_FOUNDATION.md).
+- Checkpoint arquitetural: [`checkpoints/CHECKPOINT_002_ARCHITECTURE_APPROVED.md`](checkpoints/CHECKPOINT_002_ARCHITECTURE_APPROVED.md).
+
+### Fronteira entre os ativos
+
+| Ativo | Repositório | Papel | Regra |
+|---|---|---|---|
+| RAIOX Landing V1 | `ossodigital/raiox-landing` | aquisição, demo e contato humano | congelado e independente |
+| RAIOX PLATFORM / OSSO AUDIT | futuro `ossodigital/raiox-platform` | SaaS multiempresa de auditoria | novo produto, sem copiar o runtime V1 |
+
+### Documentação da plataforma
+
+- [Arquitetura e árvore definitiva](docs/platform/MASTER_PLAN_RAIOX_PLATFORM.md)
+- [Auditoria e componentes reutilizáveis do V1](docs/platform/V1_BASELINE_AUDIT.md)
+- [Modelagem Supabase multiempresa](docs/platform/DATA_MODEL.md)
+- [Contratos REST versionados](docs/platform/API_CONTRACTS_V1.md)
+- [Módulos e fluxos](docs/platform/FLOWS_AND_MODULES.md)
+- [Testes, observabilidade, segurança e LGPD](docs/platform/QUALITY_SECURITY_OPERATIONS.md)
+- [Backlog, comercial, monetização e V2–V5](docs/platform/BACKLOG_COMMERCIAL_ROADMAP.md)
+- [Decisões arquiteturais consolidadas](docs/platform/ARCHITECTURE_DECISIONS.md)
+- [ADRs 001–008](docs/platform/ADR_INDEX.md)
+
 Repositório oficial: [ossodigital/raiox-landing](https://github.com/ossodigital/raiox-landing)
 
 ## Status
@@ -84,14 +147,14 @@ raiox-landing/
 6. O cliente recebe PDF, prioridades e proposta opcional de implantação.
 7. Quando previsto na proposta, o valor do diagnóstico é abatido da implantação.
 
-## Próximos passos V2
+## Próximos passos da plataforma
 
-- Formulário.
-- Supabase.
-- Dashboard.
-- Score automático.
-- PDF dinâmico.
-- IA de auditoria.
-- Pagamentos.
+- Encerrar gates operacionais, jurídicos, metodológicos e de fornecedores.
+- Criar o repositório independente `raiox-platform`.
+- Implementar o esqueleto técnico, tenancy, Auth, RLS e testes de isolamento.
+- Entregar o workflow humano completo na V2 antes de introduzir IA na V3.
+- Preservar a landing e o atendimento V1 durante toda a transição.
+
+A Missão 003 — Platform Skeleton ainda não foi iniciada.
 
 Consulte [ROADMAP.md](ROADMAP.md) e [RELEASE_NOTES.md](RELEASE_NOTES.md).

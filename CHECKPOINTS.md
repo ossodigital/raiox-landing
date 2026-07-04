@@ -96,3 +96,49 @@
 - Seção comercial dedicada apresenta a entrega e direciona para `report.html`.
 - Página de obrigado também oferece acesso relativo ao relatório demonstrativo.
 - Jornada entre landing, demo e solicitação pelo WhatsApp validada.
+
+## CHECKPOINT_001_FOUNDATION
+
+**Status:** concluído em 2026-07-01 — sucedido pela baseline arquitetural de 2026-07-02.
+
+- Landing V1 auditada e definida como dependência externa congelada no baseline `b7984a2`.
+- MASTER PLAN do RAIOX PLATFORM (OSSO AUDIT) documentado sem implementação de negócio.
+- Arquitetura, dados, API, fluxos, segurança, testes, operação e roadmap V2–V5 consolidados.
+- Checkpoint detalhado: [`checkpoints/CHECKPOINT_001_FOUNDATION.md`](checkpoints/CHECKPOINT_001_FOUNDATION.md).
+- Gate sucedido por: `CHECKPOINT_002_ARCHITECTURE_APPROVED`.
+
+## CHECKPOINT_002_ARCHITECTURE_APPROVED
+
+**Status:** aprovado em 2026-07-02 como baseline arquitetural.
+
+- ADRs 001–008 aceitos e indexados.
+- Repositório, tenancy, Supabase, API, módulos, eventos, filas e IA formalizados.
+- Nenhuma implementação ou deploy autorizado.
+- Runtime congelado da Landing V1 preservado no baseline `b7984a2`.
+- Checkpoint detalhado: [`checkpoints/CHECKPOINT_002_ARCHITECTURE_APPROVED.md`](checkpoints/CHECKPOINT_002_ARCHITECTURE_APPROVED.md).
+- Próximo gate recomendado: `CHECKPOINT_003_PLATFORM_SKELETON_READY`.
+
+## CHECKPOINT_OSSO_DIGITAL_ARCHITECTURE
+
+**Status:** concluído em 2026-07-02 no escopo documental.
+
+- Arquitetura corporativa oficial da OSSO DIGITAL criada.
+- Product Map, padrões de engenharia/SaaS/documentação/IA e estratégia de repositórios publicados.
+- Templates reutilizáveis de ADR, checkpoint e missão Codex adicionados.
+- Roadmap corporativo V1–V6 registrado.
+- Runtime e deploy da Landing V1 preservados.
+- Checkpoint detalhado: [`checkpoints/CHECKPOINT_OSSO_DIGITAL_ARCHITECTURE.md`](checkpoints/CHECKPOINT_OSSO_DIGITAL_ARCHITECTURE.md).
+- Próximo gate: `CHECKPOINT_OSSO_DIGITAL_PORTFOLIO_INVENTORY_OK`.
+
+## CHECKPOINT_004_FOUNDATION_CLOSURE
+
+**Status:** concluído em 2026-07-02 — aprovado para commit documental.
+
+- Missões 001–003 revisadas e encerradas documentalmente.
+- Links, referências, ADRs e Mermaid estruturalmente validados.
+- Landing V1 confirmada idêntica ao baseline `b7984a2`.
+- Nenhum runtime, deploy ou configuração de produção alterado.
+- Relatório: [`docs/platform/FOUNDATION_CLOSURE_REPORT.md`](docs/platform/FOUNDATION_CLOSURE_REPORT.md).
+- Checkpoint detalhado: [`checkpoints/CHECKPOINT_004_FOUNDATION_CLOSURE.md`](checkpoints/CHECKPOINT_004_FOUNDATION_CLOSURE.md).
+- Commit recomendado: `docs: close RAIOX Platform foundation planning cycle`.
+- Próxima missão: **MISSÃO 005 — CREATE RAIOX PLATFORM REPOSITORY**.
